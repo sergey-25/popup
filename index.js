@@ -1,6 +1,3 @@
-//   var delay_popup = 2000;
-//      setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
-
 
    const popup = document.querySelector(".popup");
     const close = document.querySelector(".close");
@@ -16,7 +13,7 @@
     })
 
     function showPopup() {
-        const timeLimit = 1 // seconds;
+        const timeLimit = 1 
         let i = 0;
         const timer = setInterval(function () {
             i++;
