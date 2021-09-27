@@ -5,10 +5,6 @@
   margin: 0;
 }
 
-body {
-  background: #ddd;
-}
-
 .popup-btns {
   display: flex;
   justify-content: space-around;
